@@ -1,0 +1,70 @@
+section {
+	height: 100vh;
+}
+
+.white {
+	color: white;
+}
+
+.raleway {
+	font-family: 'Raleway', sans-serif;
+}
+
+.oxygen {
+	font-family: 'Oxygen', sans-serif;
+}
+
+.title {
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.secondary {
+	font-size: 55px;
+	text-transform: uppercase;
+	color: #7CAB53;
+	text-align: center;
+	padding: 5%;
+}
+
+/******hero********/
+
+.banner {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,.4) 100%, transparent), url("assets/maldives.jpg") no-repeat bottom;
+	background-size: cover;
+}
+
+.main {
+	/*z-index: 3;*/
+	margin-top: 40%;
+	font-size: 65px;
+}
+
+.sub {
+	font-size: 30px;
+	margin-top: 40%;
+}
+
+/******vacation********/
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.sub-photo {
+	width: 24%;
+	height: 40vh;
+	transition: .3s ease;
+}
+
+.sub-photo:hover {
+  opacity: 0.6;
+}
