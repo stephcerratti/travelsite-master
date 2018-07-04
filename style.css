@@ -57,23 +57,51 @@ section {
 	margin-top: 40%;
 }
 
+.fa-arrow-circle-down {
+	font-size: 50px;
+	padding-top: 5%;
+	transition: all .2s ease-in-out;
+}
+
+.fa-arrow-circle-down:hover {
+	transform: scale(1.3);
+}
 /******vacation********/
 
 .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 95%;
+	width: 98%;
 	margin: 0 auto;
 	padding-top: 3%;
 }
 
 .sub-photo {
-	width: 24%;
-	height: 40vh;
+	width: 100%%;
+	height: 45vh;
 	transition: .3s ease;
 }
 
 .sub-photo:hover {
   opacity: 0.6;
 }
+
+.img-container p {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 2%;
+	color: #696969;
+	display: none;
+
+}
+
+.img-container {
+	position: relative;
+}
+
+.img-container:hover  p {
+	display: block;
+}
+
+
